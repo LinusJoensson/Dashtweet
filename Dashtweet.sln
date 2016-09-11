@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BFAF3E11-E7E8-4EC0-A4A1-650B57027348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F78CC6BA-9FF1-4E07-AFE5-18D9883D7D0D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Dashtweet", "src\Dashtweet\Dashtweet.xproj", "{5DFA5D15-3FE8-4F6B-BC0D-9751B0BA8598}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DFA5D15-3FE8-4F6B-BC0D-9751B0BA8598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFA5D15-3FE8-4F6B-BC0D-9751B0BA8598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFA5D15-3FE8-4F6B-BC0D-9751B0BA8598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFA5D15-3FE8-4F6B-BC0D-9751B0BA8598}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5DFA5D15-3FE8-4F6B-BC0D-9751B0BA8598} = {BFAF3E11-E7E8-4EC0-A4A1-650B57027348}
+	EndGlobalSection
+EndGlobal

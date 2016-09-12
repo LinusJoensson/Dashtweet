@@ -1,0 +1,25 @@
+﻿@model Dashtweet.Models.RegisteredUser
+
+<div id="tempDiv">
+
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            var tweeterSignals = $.connection.tweetSignalsHub;
+
+            tweeterSignals.client.sayHello = function (message) {
+                $('#tempDiv').after(' ' + message);
+            }
+
+            $.connection.hub.start().done(function () {
+                tweeterSignals.server.welcome("SignalR ready");
+            });
+        });
+
+    </script>
+}

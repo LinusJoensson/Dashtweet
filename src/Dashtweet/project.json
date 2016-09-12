@@ -1,7 +1,18 @@
 ﻿{
   "dependencies": {
+    "Microsoft.AspNetCore.Mvc": "1.0.0-rc2-final",
+    "Microsoft.AspNetCore.StaticFiles": "1.0.0-rc2-final",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0-rc2-final",
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final"
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0-rc2-final",
+    "Microsoft.AspNetCore.Session": "1.0.0-rc2-final",
+    "Microsoft.AspNet.SignalR": "2.2.0",
+    "Microsoft.AspNet.SignalR.Owin": "1.2.2",
+    "Microsoft.AspNetCore.Owin": "1.0.0-rc2-final",
+    "TweetinviAPI": "1.0.0",
+    "Microsoft.AspNetCore.Authentication": "1.0.0-rc2-final",
+    "Microsoft.AspNetCore.Authentication.Cookies": "1.0.0-rc2-final",
+    "Microsoft.AspNetCore.Authentication.OAuth": "1.0.0-rc2-final",
+    "glyphicon": "1.0.1"
   },
 
   "tools": {
